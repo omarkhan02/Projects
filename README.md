@@ -15,35 +15,13 @@ Recently got a webcam, and I've always wanted to explore using it to play around
 ## How it Works
 Uses Python (OpenCV) and the pre-trained models from [Mediapipe (Google)](http://google.github.io/mediapipe/ "Mediapipe (Google)") to capture video, recognize hands in the frame and then calculate the slope between the two hands to determine which direction to turn in. 
 
-Want to see it in action? Click the thumbnail for a demo.
-[![demo-thubmnail](https://i.imgur.com/XeL4zIn.png)](https://www.youtube.com/watch?v=q0O3pqBi1xs)
+Welcome to the Virtual ML Steering Wheel project! This project leverages the power of OpenCV and machine learning techniques to create a virtual steering wheel interface for controlling applications and games.
 
-<!-- GETTING STARTED -->
-## Getting Started
+By utilizing OpenCV's computer vision capabilities, this project enables users to interact with virtual steering controls in real-time using gestures captured through a webcam. The integration of machine learning algorithms enhances the accuracy and responsiveness of the steering controls, providing a seamless and intuitive user experience.
 
-Looking to demo the app yourself? Check this part out.
+Key Features:
 
-### Installation
-1. Clone the repo
-   ```sh
-   git clone https://github.com/HaiderZaidiDev/virtual-ml-steering-wheel
-   ```
-2. Install PIP packages
-   ```sh
-    pip install -r requirements.txt
-   ```
-3. Run the Python script
-   ```sh
-    python3 steeringwheel.py
-   ```
-
-<!-- CONTRIBUTING -->
-## Contributing
-
-Contributions are welcome, feel free to make a PR!
-
-1. Fork the Project
-2. Create your Feature Branch (`git checkout -b feature/AmazingFeature`)
-3. Commit your Changes (`git commit -m 'Add some AmazingFeature'`)
-4. Push to the Branch (`git push origin feature/AmazingFeature`)
-5. Open a Pull Request
+Real-time gesture recognition: The project employs OpenCV to detect and recognize hand gestures captured by a webcam, allowing users to interact with the virtual steering controls effortlessly.
+Machine learning-based steering prediction: Through the implementation of machine learning models, the system predicts the intended steering direction based on the detected hand gestures, ensuring smooth and precise control.
+Customizable interface: Users have the flexibility to customize the appearance and behavior of the virtual steering wheel to suit their preferences and application requirements.
+Compatibility: The project is designed to be compatible with various platforms and applications, making it adaptable for a wide range of use cases, including gaming, simulations, and interactive applications.
