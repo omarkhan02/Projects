@@ -82,15 +82,24 @@ with mp_hands.Hands(
                     print("Keeping straight.")
                     keyboard.release('a')
                     keyboard.release('d')
-                    keyboard.press('w')
+                    keyboard.press('w')<img width="960" alt="Screenshot_20221123_112859" src="https://github.com/omarkhan02/Virtual-ML-Steering-Wheel/assets/85324948/ee7f98fa-0740-426f-b371-6ab59b3433e2">
+
                     
 
         cv2.imshow('Hand Tracking', image)
-
-        #assigning break key as 'q'
+          #assigning break key as 'q'
         if cv2.waitKey(5) & 0xFF == ord('q'):
             break
 
 #terminating program
 cap.release()
 cv2.destroyAllWindows()
+
+<img width="960" alt="Screenshot_20221123_112513" src="https://github.com/omarkhan02/Virtual-ML-Steering-Wheel/assets/85324948/1757feed-1046-413c-9c31-7a830e430214">
+<img width="960" alt="Screenshot_20221123_112859" src="https://github.com/omarkhan02/Virtual-ML-Steering-Wheel/assets/85324948/61f0491f-0b2f-4d4f-ab76-ed8e8c74133c">
+<img width="303" alt="Screenshot 2023-07-13 181827" src="https://github.com/omarkhan02/Virtual-ML-Steering-Wheel/assets/85324948/04eaed01-c356-4ad0-b7e7-656b12b9fc68">
+<img width="301" alt="Screenshot 2023-07-13 182053" src="https://github.com/omarkhan02/Virtual-ML-Steering-Wheel/assets/85324948/008dbbdc-b578-4b68-966d-732c775031d4">
+<img width="300" alt="Screenshot 2023-07-13 182258" src="https://github.com/omarkhan02/Virtual-ML-Steering-Wheel/assets/85324948/ca4326f1-e2d7-4f4d-a1b0-9e63131e43cf">
+
+
+      
